@@ -1,0 +1,21 @@
+# Ignore global Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore all virtual environments inside exercises
+exercise*/venv/
+exercise*/.venv/
+exercise*/pyvenv.cfg
+
+# Ignore compiled files and build directories
+bin/
+lib/
+include/
+
+# Ignore system files (macOS, Windows, and editor backups)
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
